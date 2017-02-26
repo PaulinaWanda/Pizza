@@ -1,0 +1,60 @@
+.table {
+    display: flex;
+
+}
+.pizza {
+    margin: 5% auto;
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    border-radius: 50%;
+    border: 25px solid yellow;
+    background-color: darkred;
+    box-shadow: 5px 5px 1px 25px lightgrey,
+                -5px -5px 1px 20px grey;
+}
+.pizza:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 140px 110px 0 20px lightgoldenrodyellow,
+                85px 240px 0 30px lightgoldenrodyellow,
+                195px 330px 0 25px lightgoldenrodyellow,
+                230px 175px 0 25px lightgoldenrodyellow,
+                320px 320px 0 30px lightgoldenrodyellow,
+                280px 70px 0 20px lightgoldenrodyellow,
+                350px 160px 0 25px lightgoldenrodyellow,
+                110px 240px 0 35px purple,
+                185px 65px 0 30px purple,
+                385px 130px 0 20px purple,
+                250px 250px 0 25px purple,
+                220px 380px 0 20px purple,
+                90px 345px 0 25px purple,
+                330px 255px 0 30px purple;
+    z-index: 3;
+}
+.pizza:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 0 25% 0 50%;
+    box-shadow: 140px 140px 0 20px green,
+                80px 175px 0 30px green,
+                105px 310px 0 25px green,
+                280px 120px 0 25px green,
+                230px 360px 0 30px green,
+                295px 70px 0 20px green,
+                340px 170px 0 25px green,
+                125px 80px 0 10px lightgreen,
+                70px 275px 0 20px lightgreen,
+                115px 210px 0 15px lightgreen,
+                270px 320px 0 25px lightgreen,
+                190px 370px 0 25px lightgreen,
+                195px 170px 0 10px lightgreen,
+                355px 110px 0 20px lightgreen;
+}
